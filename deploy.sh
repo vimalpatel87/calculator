@@ -16,12 +16,10 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git remote set-url origin https://vimalpatel87@github.com/vimalpatel87/calculator.git
-
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
- git push -f vimalpatel87@github.com:vimalpatel87/calculator.git master:gh-pages
+ git push -f git@github.com-vimalpatel87:vimalpatel87/calculator.git master:gh-pages
 
 cd -
